@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34B8B4BF28E2DC9A00AF7B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B8B4BE28E2DC9A00AF7B63 /* AppDelegate.swift */; };
+		34B8B4C128E2DC9A00AF7B63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B8B4C028E2DC9A00AF7B63 /* SceneDelegate.swift */; };
+		34B8B4C328E2DC9A00AF7B63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B8B4C228E2DC9A00AF7B63 /* ViewController.swift */; };
+		34B8B4C628E2DC9A00AF7B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4C428E2DC9A00AF7B63 /* Main.storyboard */; };
+		34B8B4C828E2DC9C00AF7B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4C728E2DC9C00AF7B63 /* Assets.xcassets */; };
+		34B8B4CB28E2DC9C00AF7B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4C928E2DC9C00AF7B63 /* LaunchScreen.storyboard */; };
+		34B8B4D328E2E66200AF7B63 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B8B4D228E2E66200AF7B63 /* LoginViewController.swift */; };
+		34B8B4D828E2E6DE00AF7B63 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4D728E2E6DE00AF7B63 /* LoginViewController.xib */; };
+		34B8B4FE28E2F9C400AF7B63 /* TabBarSearchIcon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4F528E2F9C400AF7B63 /* TabBarSearchIcon.svg */; };
+		34B8B4FF28E2F9C400AF7B63 /* mailIcon-light.svg in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4F628E2F9C400AF7B63 /* mailIcon-light.svg */; };
+		34B8B50028E2F9C400AF7B63 /* TabBarSettingsIcon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4F728E2F9C400AF7B63 /* TabBarSettingsIcon.svg */; };
+		34B8B50128E2F9C400AF7B63 /* close-light.svg in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4F828E2F9C400AF7B63 /* close-light.svg */; };
+		34B8B50228E2F9C400AF7B63 /* plusIcon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4F928E2F9C400AF7B63 /* plusIcon.svg */; };
+		34B8B50328E2F9C400AF7B63 /* TabBarHomeIcon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4FA28E2F9C400AF7B63 /* TabBarHomeIcon.svg */; };
+		34B8B50428E2F9C400AF7B63 /* Rettiwt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4FB28E2F9C400AF7B63 /* Rettiwt.jpg */; };
+		34B8B50528E2F9C400AF7B63 /* pwdIcon-light.svg in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4FC28E2F9C400AF7B63 /* pwdIcon-light.svg */; };
+		34B8B50628E2F9C400AF7B63 /* back-light.svg in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B4FD28E2F9C400AF7B63 /* back-light.svg */; };
+		34B8B51428E2FFF700AF7B63 /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B50828E2FFF700AF7B63 /* SourceSansPro-BlackItalic.ttf */; };
+		34B8B51528E2FFF700AF7B63 /* SourceSansPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B50928E2FFF700AF7B63 /* SourceSansPro-SemiBoldItalic.ttf */; };
+		34B8B51628E2FFF700AF7B63 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B50A28E2FFF700AF7B63 /* SourceSansPro-Regular.ttf */; };
+		34B8B51728E2FFF700AF7B63 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B50B28E2FFF700AF7B63 /* SourceSansPro-Bold.ttf */; };
+		34B8B51828E2FFF700AF7B63 /* SourceSansPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B50C28E2FFF700AF7B63 /* SourceSansPro-LightItalic.ttf */; };
+		34B8B51928E2FFF700AF7B63 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B50D28E2FFF700AF7B63 /* SourceSansPro-Light.ttf */; };
+		34B8B51A28E2FFF700AF7B63 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B50E28E2FFF700AF7B63 /* SourceSansPro-Black.ttf */; };
+		34B8B51B28E2FFF700AF7B63 /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B50F28E2FFF700AF7B63 /* SourceSansPro-ExtraLight.ttf */; };
+		34B8B51C28E2FFF700AF7B63 /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B51028E2FFF700AF7B63 /* SourceSansPro-BoldItalic.ttf */; };
+		34B8B51D28E2FFF700AF7B63 /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B51128E2FFF700AF7B63 /* SourceSansPro-SemiBold.ttf */; };
+		34B8B51E28E2FFF700AF7B63 /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B51228E2FFF700AF7B63 /* SourceSansPro-ExtraLightItalic.ttf */; };
+		34B8B51F28E2FFF700AF7B63 /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B51328E2FFF700AF7B63 /* SourceSansPro-Italic.ttf */; };
+		34B8B52228E3069E00AF7B63 /* SkyFloatingLabelTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 34B8B52128E3069E00AF7B63 /* SkyFloatingLabelTextField */; };
+		34B8B52528E334DC00AF7B63 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B8B52428E334DC00AF7B63 /* SignUpViewController.swift */; };
+		34B8B52728E3350200AF7B63 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34B8B52628E3350200AF7B63 /* SignUpViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34B8B4BB28E2DC9A00AF7B63 /* Rettiwt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rettiwt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B8B4BE28E2DC9A00AF7B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34B8B4C028E2DC9A00AF7B63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34B8B4C228E2DC9A00AF7B63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34B8B4C528E2DC9A00AF7B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34B8B4C728E2DC9C00AF7B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34B8B4CA28E2DC9C00AF7B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34B8B4CC28E2DC9C00AF7B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B8B4D228E2E66200AF7B63 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		34B8B4D728E2E6DE00AF7B63 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		34B8B4F528E2F9C400AF7B63 /* TabBarSearchIcon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TabBarSearchIcon.svg; sourceTree = "<group>"; };
+		34B8B4F628E2F9C400AF7B63 /* mailIcon-light.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mailIcon-light.svg"; sourceTree = "<group>"; };
+		34B8B4F728E2F9C400AF7B63 /* TabBarSettingsIcon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TabBarSettingsIcon.svg; sourceTree = "<group>"; };
+		34B8B4F828E2F9C400AF7B63 /* close-light.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "close-light.svg"; sourceTree = "<group>"; };
+		34B8B4F928E2F9C400AF7B63 /* plusIcon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plusIcon.svg; sourceTree = "<group>"; };
+		34B8B4FA28E2F9C400AF7B63 /* TabBarHomeIcon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TabBarHomeIcon.svg; sourceTree = "<group>"; };
+		34B8B4FB28E2F9C400AF7B63 /* Rettiwt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rettiwt.jpg; sourceTree = "<group>"; };
+		34B8B4FC28E2F9C400AF7B63 /* pwdIcon-light.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "pwdIcon-light.svg"; sourceTree = "<group>"; };
+		34B8B4FD28E2F9C400AF7B63 /* back-light.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "back-light.svg"; sourceTree = "<group>"; };
+		34B8B50828E2FFF700AF7B63 /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		34B8B50928E2FFF700AF7B63 /* SourceSansPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		34B8B50A28E2FFF700AF7B63 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		34B8B50B28E2FFF700AF7B63 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		34B8B50C28E2FFF700AF7B63 /* SourceSansPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		34B8B50D28E2FFF700AF7B63 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		34B8B50E28E2FFF700AF7B63 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		34B8B50F28E2FFF700AF7B63 /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		34B8B51028E2FFF700AF7B63 /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		34B8B51128E2FFF700AF7B63 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		34B8B51228E2FFF700AF7B63 /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		34B8B51328E2FFF700AF7B63 /* SourceSansPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Italic.ttf"; sourceTree = "<group>"; };
+		34B8B52428E334DC00AF7B63 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = Rettiwt/SignUp/SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
+		34B8B52628E3350200AF7B63 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34B8B4B828E2DC9A00AF7B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B8B52228E3069E00AF7B63 /* SkyFloatingLabelTextField in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B8B4B228E2DC9A00AF7B63 = {
+			isa = PBXGroup;
+			children = (
+				34B8B4BD28E2DC9A00AF7B63 /* Rettiwt */,
+				34B8B4BC28E2DC9A00AF7B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34B8B4BC28E2DC9A00AF7B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B8B4BB28E2DC9A00AF7B63 /* Rettiwt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B8B4BD28E2DC9A00AF7B63 /* Rettiwt */ = {
+			isa = PBXGroup;
+			children = (
+				34B8B4D928E2F63800AF7B63 /* Fonts */,
+				34B8B52328E3348E00AF7B63 /* SignUp */,
+				34B8B4D428E2E68700AF7B63 /* Login */,
+				34B8B4BE28E2DC9A00AF7B63 /* AppDelegate.swift */,
+				34B8B4C028E2DC9A00AF7B63 /* SceneDelegate.swift */,
+				34B8B4C228E2DC9A00AF7B63 /* ViewController.swift */,
+				34B8B4C428E2DC9A00AF7B63 /* Main.storyboard */,
+				34B8B4C728E2DC9C00AF7B63 /* Assets.xcassets */,
+				34B8B4C928E2DC9C00AF7B63 /* LaunchScreen.storyboard */,
+				34B8B4CC28E2DC9C00AF7B63 /* Info.plist */,
+				34B8B4F428E2F9C400AF7B63 /* Images */,
+			);
+			path = Rettiwt;
+			sourceTree = "<group>";
+		};
+		34B8B4D428E2E68700AF7B63 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				34B8B4D228E2E66200AF7B63 /* LoginViewController.swift */,
+				34B8B4D728E2E6DE00AF7B63 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		34B8B4D928E2F63800AF7B63 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				34B8B50728E2FFF700AF7B63 /* Source_Sans_Pro */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		34B8B4F428E2F9C400AF7B63 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				34B8B4F528E2F9C400AF7B63 /* TabBarSearchIcon.svg */,
+				34B8B4F628E2F9C400AF7B63 /* mailIcon-light.svg */,
+				34B8B4F728E2F9C400AF7B63 /* TabBarSettingsIcon.svg */,
+				34B8B4F828E2F9C400AF7B63 /* close-light.svg */,
+				34B8B4F928E2F9C400AF7B63 /* plusIcon.svg */,
+				34B8B4FA28E2F9C400AF7B63 /* TabBarHomeIcon.svg */,
+				34B8B4FB28E2F9C400AF7B63 /* Rettiwt.jpg */,
+				34B8B4FC28E2F9C400AF7B63 /* pwdIcon-light.svg */,
+				34B8B4FD28E2F9C400AF7B63 /* back-light.svg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		34B8B50728E2FFF700AF7B63 /* Source_Sans_Pro */ = {
+			isa = PBXGroup;
+			children = (
+				34B8B50828E2FFF700AF7B63 /* SourceSansPro-BlackItalic.ttf */,
+				34B8B50928E2FFF700AF7B63 /* SourceSansPro-SemiBoldItalic.ttf */,
+				34B8B50A28E2FFF700AF7B63 /* SourceSansPro-Regular.ttf */,
+				34B8B50B28E2FFF700AF7B63 /* SourceSansPro-Bold.ttf */,
+				34B8B50C28E2FFF700AF7B63 /* SourceSansPro-LightItalic.ttf */,
+				34B8B50D28E2FFF700AF7B63 /* SourceSansPro-Light.ttf */,
+				34B8B50E28E2FFF700AF7B63 /* SourceSansPro-Black.ttf */,
+				34B8B50F28E2FFF700AF7B63 /* SourceSansPro-ExtraLight.ttf */,
+				34B8B51028E2FFF700AF7B63 /* SourceSansPro-BoldItalic.ttf */,
+				34B8B51128E2FFF700AF7B63 /* SourceSansPro-SemiBold.ttf */,
+				34B8B51228E2FFF700AF7B63 /* SourceSansPro-ExtraLightItalic.ttf */,
+				34B8B51328E2FFF700AF7B63 /* SourceSansPro-Italic.ttf */,
+			);
+			path = Source_Sans_Pro;
+			sourceTree = "<group>";
+		};
+		34B8B52328E3348E00AF7B63 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				34B8B52628E3350200AF7B63 /* SignUpViewController.xib */,
+				34B8B52428E334DC00AF7B63 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34B8B4BA28E2DC9A00AF7B63 /* Rettiwt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B8B4CF28E2DC9C00AF7B63 /* Build configuration list for PBXNativeTarget "Rettiwt" */;
+			buildPhases = (
+				34B8B4B728E2DC9A00AF7B63 /* Sources */,
+				34B8B4B828E2DC9A00AF7B63 /* Frameworks */,
+				34B8B4B928E2DC9A00AF7B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rettiwt;
+			packageProductDependencies = (
+				34B8B52128E3069E00AF7B63 /* SkyFloatingLabelTextField */,
+			);
+			productName = Rettiwt;
+			productReference = 34B8B4BB28E2DC9A00AF7B63 /* Rettiwt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34B8B4B328E2DC9A00AF7B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					34B8B4BA28E2DC9A00AF7B63 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 34B8B4B628E2DC9A00AF7B63 /* Build configuration list for PBXProject "Rettiwt" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34B8B4B228E2DC9A00AF7B63;
+			packageReferences = (
+				34B8B52028E3069E00AF7B63 /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */,
+			);
+			productRefGroup = 34B8B4BC28E2DC9A00AF7B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34B8B4BA28E2DC9A00AF7B63 /* Rettiwt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34B8B4B928E2DC9A00AF7B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B8B50228E2F9C400AF7B63 /* plusIcon.svg in Resources */,
+				34B8B51528E2FFF700AF7B63 /* SourceSansPro-SemiBoldItalic.ttf in Resources */,
+				34B8B51728E2FFF700AF7B63 /* SourceSansPro-Bold.ttf in Resources */,
+				34B8B51C28E2FFF700AF7B63 /* SourceSansPro-BoldItalic.ttf in Resources */,
+				34B8B50128E2F9C400AF7B63 /* close-light.svg in Resources */,
+				34B8B51428E2FFF700AF7B63 /* SourceSansPro-BlackItalic.ttf in Resources */,
+				34B8B51D28E2FFF700AF7B63 /* SourceSansPro-SemiBold.ttf in Resources */,
+				34B8B4D828E2E6DE00AF7B63 /* LoginViewController.xib in Resources */,
+				34B8B50428E2F9C400AF7B63 /* Rettiwt.jpg in Resources */,
+				34B8B4CB28E2DC9C00AF7B63 /* LaunchScreen.storyboard in Resources */,
+				34B8B51A28E2FFF700AF7B63 /* SourceSansPro-Black.ttf in Resources */,
+				34B8B50628E2F9C400AF7B63 /* back-light.svg in Resources */,
+				34B8B50328E2F9C400AF7B63 /* TabBarHomeIcon.svg in Resources */,
+				34B8B51928E2FFF700AF7B63 /* SourceSansPro-Light.ttf in Resources */,
+				34B8B50028E2F9C400AF7B63 /* TabBarSettingsIcon.svg in Resources */,
+				34B8B51828E2FFF700AF7B63 /* SourceSansPro-LightItalic.ttf in Resources */,
+				34B8B52728E3350200AF7B63 /* SignUpViewController.xib in Resources */,
+				34B8B4FE28E2F9C400AF7B63 /* TabBarSearchIcon.svg in Resources */,
+				34B8B51B28E2FFF700AF7B63 /* SourceSansPro-ExtraLight.ttf in Resources */,
+				34B8B51628E2FFF700AF7B63 /* SourceSansPro-Regular.ttf in Resources */,
+				34B8B51F28E2FFF700AF7B63 /* SourceSansPro-Italic.ttf in Resources */,
+				34B8B50528E2F9C400AF7B63 /* pwdIcon-light.svg in Resources */,
+				34B8B51E28E2FFF700AF7B63 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
+				34B8B4FF28E2F9C400AF7B63 /* mailIcon-light.svg in Resources */,
+				34B8B4C828E2DC9C00AF7B63 /* Assets.xcassets in Resources */,
+				34B8B4C628E2DC9A00AF7B63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34B8B4B728E2DC9A00AF7B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B8B4D328E2E66200AF7B63 /* LoginViewController.swift in Sources */,
+				34B8B4C328E2DC9A00AF7B63 /* ViewController.swift in Sources */,
+				34B8B4BF28E2DC9A00AF7B63 /* AppDelegate.swift in Sources */,
+				34B8B4C128E2DC9A00AF7B63 /* SceneDelegate.swift in Sources */,
+				34B8B52528E334DC00AF7B63 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34B8B4C428E2DC9A00AF7B63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B8B4C528E2DC9A00AF7B63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34B8B4C928E2DC9C00AF7B63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B8B4CA28E2DC9C00AF7B63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34B8B4CD28E2DC9C00AF7B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34B8B4CE28E2DC9C00AF7B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34B8B4D028E2DC9C00AF7B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KY6F7YY92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rettiwt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mds.Rettiwt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34B8B4D128E2DC9C00AF7B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KY6F7YY92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rettiwt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mds.Rettiwt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34B8B4B628E2DC9A00AF7B63 /* Build configuration list for PBXProject "Rettiwt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B8B4CD28E2DC9C00AF7B63 /* Debug */,
+				34B8B4CE28E2DC9C00AF7B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B8B4CF28E2DC9C00AF7B63 /* Build configuration list for PBXNativeTarget "Rettiwt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B8B4D028E2DC9C00AF7B63 /* Debug */,
+				34B8B4D128E2DC9C00AF7B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34B8B52028E3069E00AF7B63 /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Skyscanner/SkyFloatingLabelTextField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34B8B52128E3069E00AF7B63 /* SkyFloatingLabelTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34B8B52028E3069E00AF7B63 /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */;
+			productName = SkyFloatingLabelTextField;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 34B8B4B328E2DC9A00AF7B63 /* Project object */;
+}
